@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+
+    </head>
+
+<body ng-app="app">
+<div ng-controller="kontrola">
+  <form ng-submit="start()">
+    <input type="text" name="tekst" ng-model="besedilo">
+    <button>start</button>
+  </form>
+
+  <besede barva="red"></besede>
+</div>
+  
+</body>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0-beta.8/angular.js"></script>
+        <script src="main3.js"></script>
+</html>
