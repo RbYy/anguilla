@@ -22,7 +22,7 @@ app.directive('besede',['servisPobarvaj', function(servisPobarvaj){
         restrict: "E",
         templateUrl: 'templ2.html',
         replace:true,
-        link: servisPobarvaj
-
+        link: servisPobarvaj // namesto, da bi definiral anonimno funkcijo,
+							// sem registriral service in ga injektiral v direktivo
     }
 }])
