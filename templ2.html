@@ -1,13 +1,15 @@
 <div>
 	<style scoped type="text/css">
 		.pobarvana {
-		    background-color:{{nova}};
+		    background-color:{{barva}};
 		}
+
 	</style>
 
 	<span ng-class="{'pobarvana':$index==stBesede}" 
-     	  ng-repeat="beseda in besede track by $index"
+     	  ng-repeat="beseda in parsano track by $index"
 		  ng-click="pobarvaj($index)">
 		  {{beseda}}
 	</span>
+	
 </div>
