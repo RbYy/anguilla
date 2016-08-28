@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body ng-app="app">
+	<div ng-controller="kontrola">
+
+		<input type="text" name="tekst" ng-model="besedilomodel">
+
+
+	  <besede besedilo={{besedilomodel}} barva="red"></besede> <!--custom direktiva s custom atributom-->
+	</div>
+</body>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0-beta.8/angular.js"></script>
+    <script src="main3.js"></script>
+</html>
+
